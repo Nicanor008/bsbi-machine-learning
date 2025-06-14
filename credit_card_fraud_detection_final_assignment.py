@@ -30,7 +30,7 @@ np.random.seed(42)
 from google.colab import drive
 drive.mount('/content/drive')
 
-df = pd.read_csv('/content/drive/MyDrive/CreditCardFraudDetection/creditcard.csv')
+df = pd.read_csv('/content/drive/MyDrive/creditcard.csv')
 
 """## Data Preprocessing and Exploration
 
